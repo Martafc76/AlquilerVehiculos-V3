@@ -1,0 +1,66 @@
+/* styles.css */
+
+.root {
+    -fx-background-color: #f5f5f5;
+}
+
+.button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(rgba(0, 0, 0, 0.3), 3, 3, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #3683d6;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: #4a90e2;
+    -fx-padding: 2px 4px;
+    -fx-background-color: #ffffff;
+}
+
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4a90e2;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+}
+
+.choice-box {
+    -fx-font-size: 14px;
+}
+
+.choice-box .arrow-button {
+    -fx-background-color: #4a90e2;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.choice-box .arrow {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.choice-box .arrow:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.choice-box .arrow>.arrow-down {
+    -fx-background-color: #333333;
+    -fx-shape: "M 0 0 L 5 5 L 10 0 Z";
+}
+
+
